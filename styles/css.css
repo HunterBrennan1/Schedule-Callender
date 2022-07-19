@@ -5,12 +5,13 @@ body {
 }
 
 textarea {
-  background: transparent;
+  background-color: gray;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  margin: 0px;
   width: 900px;
   height: 70px;
 }
@@ -66,6 +67,8 @@ textarea {
   background-color: #06aed5;
   color: white;
   text-align: center;
+  position: relative;
+  right: 32px;
 
 }
 
